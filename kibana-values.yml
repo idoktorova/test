@@ -34,8 +34,8 @@ hostAliases: []
 #  - "foo.local"
 #  - "bar.local"
 
-image: "docker.elastic.co/kibana/kibana"
-imageTag: "7.17.1"
+image: "kibana"
+imageTag: "7.16.2"
 imagePullPolicy: "IfNotPresent"
 
 # additionals labels
@@ -176,3 +176,4 @@ lifecycle:
 
 # Deprecated - use only with versions < 6.6
 elasticsearchURL: "" # "http://elasticsearch-master:9200"
+
